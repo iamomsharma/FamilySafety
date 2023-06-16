@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvRed"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="@dimen/dimens_16dp"
+            app:cardElevation="5dp"
+            app:cardBackgroundColor="@color/light_red_color"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimens_16dp"
+            android:elevation="5dp"
+            android:text="SOS"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/cvRed"
+            app:layout_constraintTop_toTopOf="@+id/cvRed" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimens_16dp"
+            android:elevation="5dp"
+            android:text="In case of your memory. and my name is om prakash sharma. can we talk to brother"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@id/ivSos"
+            app:layout_constraintStart_toStartOf="@id/cvRed"
+            app:layout_constraintTop_toBottomOf="@+id/tvSos" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivSos"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="@dimen/dimens_16dp"
+            android:elevation="5dp"
+            android:src="@drawable/ic_sos"
+            android:tint="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/cvRed"
+            app:layout_constraintEnd_toEndOf="@id/cvRed"
+            app:layout_constraintTop_toTopOf="@+id/cvRed" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvGreen"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="@dimen/dimens_16dp"
+            app:cardElevation="5dp"
+            app:cardBackgroundColor="@color/light_green_color"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/cvRed"
+            app:layout_constraintStart_toStartOf="@+id/cvRed"
+            app:layout_constraintTop_toBottomOf="@+id/cvRed" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvGuard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimens_16dp"
+            android:elevation="5dp"
+            android:text="GUARD"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/cvGreen"
+            app:layout_constraintTop_toTopOf="@+id/cvGreen" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimens_16dp"
+            android:elevation="5dp"
+            android:text="In case of your memory. and my name is om prakash sharma. can we talk to brother"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@id/ivGuard"
+            app:layout_constraintStart_toStartOf="@id/cvGreen"
+            app:layout_constraintTop_toBottomOf="@+id/tvGuard" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivGuard"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="@dimen/dimens_16dp"
+            android:elevation="5dp"
+            android:src="@drawable/ic_nav_guard"
+            android:tint="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/cvGreen"
+            app:layout_constraintEnd_toEndOf="@id/cvGreen"
+            app:layout_constraintTop_toTopOf="@+id/cvGreen" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
