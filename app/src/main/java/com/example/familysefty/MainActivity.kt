@@ -25,11 +25,13 @@ class MainActivity : AppCompatActivity() {
             true
         }
 
+        binding.bottomNavigation.selectedItemId = R.id.nav_home
+
     }
 
     fun callFragment(fragment: Fragment)
     {
-        var transaction = supportFragmentManager.beginTransaction()
+        val transaction = supportFragmentManager.beginTransaction()
         transaction.replace(R.id.frameContainer, fragment)
         transaction.commit()
     }

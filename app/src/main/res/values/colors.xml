@@ -9,10 +9,18 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="bg_color">#e4e6e7</color>
+    <color name="white_color">#f9f9f9</color>
+    <color name="black_color">#181c1d</color>
+    <color name="gray_color">#bdc0bf</color>
     <color name="light_red_color">#ec7078</color>
     <color name="light_green_color">#63d2c8</color>
-    <color name="light_white_color">#f1f1f1</color>
+    <color name="light_pink_color">#b199dc</color>
+    <color name="light_orange_color">#ecc275</color>
+
+    <color name="bg_light_orange_color">#efe6d2</color>
+
     <color name="bottom_navigation_item_unselected">#d3dddc</color>
     <color name="bottom_navigation_item_selected">#63d2c8</color>
+
 
 </resources>
